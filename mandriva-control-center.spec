@@ -1,12 +1,11 @@
 Name:           mandriva-control-center
 Version:        0.1
-Release:        %mkrel 2
+Release:        3
 Summary:        Mandriva control enter
 Group:          Development/Python
 License:        Apache License
 URL:            http://www.mandriva.com
 Source0:        %{name}-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	qt-components-desktop
 #BuildArch:	noarch
 Requires:	systemd
@@ -28,11 +27,7 @@ unset PYTHONDONTWRITEBYTECODE
 
 %install
 unset PYTHONDONTWRITEBYTECODE
-rm -rf %{buildroot}
 %{__python} setup.py install --install-lib=/usr/share/mandriva  --install-data=/usr/share/mandriva -O1 --skip-build --root %{buildroot}
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
