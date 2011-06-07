@@ -1,13 +1,13 @@
 Name:           mandriva-control-center
-Version:        0.1
-Release:        3
+Version:        0.2
+Release:        1
 Summary:        Mandriva control enter
 Group:          Development/Python
 License:        Apache License
 URL:            http://www.mandriva.com
 Source0:        %{name}-%{version}.tar.gz
 Requires:	qt-components-desktop
-#BuildArch:	noarch
+BuildArch:	noarch
 Requires:	systemd
 Requires:	libuser
 Requires:	libuser-python
