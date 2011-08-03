@@ -1,5 +1,5 @@
 Name:           mandriva-control-center
-Version:        0.4
+Version:        0.5
 Release:        1
 Summary:        Mandriva control enter
 Group:          Development/Python
