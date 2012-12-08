@@ -1,6 +1,6 @@
 Name:           mandriva-control-center
 Version:        0.5
-Release:        1
+Release:        3
 Summary:        Mandriva control enter
 Group:          Development/Python
 License:        GPLv2+
@@ -51,3 +51,35 @@ unset PYTHONDONTWRITEBYTECODE
 %{_datadir}/applications/kde4/mcc2-services.desktop
 %{_datadir}/applications/kde4/mcc2-users.desktop
 %{_datadir}/mandriva/*
+
+
+%changelog
+* Wed Aug 03 2011 Wiliam Alves de Souza <wiliam@mandriva.com> 0.5-1
++ Revision: 693074
+- new release 0.5
+
+* Mon Jul 04 2011 Wiliam Alves de Souza <wiliam@mandriva.com> 0.4-1
++ Revision: 688678
+- new release 0.4
+
+* Tue Jun 21 2011 Wiliam Alves de Souza <wiliam@mandriva.com> 0.3-1
++ Revision: 686518
+- new release 0.3
+
+* Tue Jun 07 2011 Wiliam Alves de Souza <wiliam@mandriva.com> 0.2-1
++ Revision: 683086
+- new release 0.2
+
+  + Nicolas Lécureuil <nlecureuil@mandriva.com>
+    - Clean spec file
+
+* Mon May 16 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.1-2
++ Revision: 675122
+- Missing requires
+
+* Mon May 16 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.1-1
++ Revision: 675117
+- Added initial preview version to cooker
+- Renamed to correct package name
+- Created package structure for mcc2.
+
