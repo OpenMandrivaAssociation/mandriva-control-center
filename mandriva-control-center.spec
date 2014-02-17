@@ -14,6 +14,7 @@ Requires:	python-qt4
 Requires:	python-dbus
 Requires:	qt-components-desktop
 Requires:	systemd
+BuildRequires:	pkgconfig(python-2.7)
 
 %description
 Mandriva control center preview
