@@ -1,7 +1,7 @@
 Summary:        Mandriva control enter
 Name:           mandriva-control-center
 Version:        0.5
-Release:        11
+Release:        12
 Group:          Development/Python
 License:        GPLv2+
 Url:            http://www.mandriva.com
