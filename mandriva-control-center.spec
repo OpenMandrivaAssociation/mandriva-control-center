@@ -4,7 +4,7 @@ Version:        0.5
 Release:        13
 Group:          Development/Python
 License:        GPLv2+
-Url:            http://www.mandriva.com
+Url:            https://www.mandriva.com
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:	noarch
 %py_requires -d
